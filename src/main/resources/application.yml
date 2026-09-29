@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: SpringBoot7_User-Passport
+  datasource:
+    url: jdbc:mysql://localhost:3306/USER-PASSPORT?createDatabaseIfNotExist=true
+    username: root
+    password: Sandeep@2027
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
